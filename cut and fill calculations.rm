@@ -1,6 +1,6 @@
- # cut nd fill calculations
+ # cut nd fill calculations #
 
- ## needed info:
+ ## needed info: ##
 1-the topographic map of the area.
 2-the outline of the building.
 
@@ -18,5 +18,16 @@ by summing the values with the same sign you can get the fill nd cut values.
 *** common mistakes= summing the vallues of cut and fill together. *** 
 the cut wwould usually become loose soil that can't be used to fill the areas that need fill.
 if the square contains both cut and fill then either use smaller squares for that area, or use interpolation.
-
+### rules of interpoltion ###
+the distance from the point were the difference beteen naturl level nd the needed level is zero is marked on two lines.
+if you have 3 or more zero points in one squre use smaller squares.
+then it's divided into equal sagments in relation to the two values
+example 1:
+-.5 and 1.5 with nl=0--> negative.5--0------1.5.
+example 2:
+negative 7 , 3 , nl = 1 --> negative 7--------1--3.
+example 3:
+negative 3 and 7 with nl= -1 negative 3-- negative 1--------7.
+then a line is made betweeen the two zeros, then you calculate the area of each part, the fill alone and the cut lone.
+in autocad you can use the command aa to clculate a closed area, once all corners seclected by the corser the are will be shown above the command box
 

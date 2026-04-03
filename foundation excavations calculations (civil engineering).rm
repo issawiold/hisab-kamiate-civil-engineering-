@@ -1,0 +1,31 @@
+# foundation excavations calculations (civil engineering)
+
+# info needed:
+ruduced level(needed excvation level)
+
+the excavation area must be equal to the lean concrete placed under the foundation would should be 10-20 cm+ on all the directions of the foundation with it's thickness 10 cm.
+check the architactural plans for the sections and depth for the foundation below reduced level, 
+example:
+|foundtion|depth|length|weidth|thickneess|
+
+|f1|80 cm|400 cm|320 cm|40 cm|
+please note that the depth of the foundation would be dependant on the type of the soil nd it's bering capacity(the streangth of the soil)
+from the previous example:
+the lean concrete should be
+400+20=420 cm length.
+320+20=340 cm width.
+10 cm thickness below the foundation to protect it.
+and the excavations for that foundation should be 
+height=80 cm (depth) + 40 cm (foundation thicknees) + 10 cm (lean concrete thickness)=130 cm
+and the same length and width as the lean concrete,
+1.3*4.2*3.4=18.7 m cubic
+if two foundtions aare close to each other (distnce between them is less than .5 m, just excavte the entire thing.
+for continous footing(usully used under walls) the calculation is done per 1 m of it's length, 
+example:
+|foundtion|depth|weidth|thickneess|
+|c2|80 cm| 50 cm|30 cm|
+the lean concrete should be
+50+20= 70cm width per meter of length
+the excavation height=80 cm (depth) + 30 cm (foundation thickness) + 10 cm (lean concrete) =120 cm.
+then multiply the amound by the number of foundations used in the plan to get the total amount that ill be excavated.
+

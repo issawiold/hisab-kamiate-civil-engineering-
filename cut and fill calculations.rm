@@ -30,4 +30,4 @@ example 3:
 negative 3 and 7 with nl= -1 negative 3-- negative 1--------7.
 then a line is made betweeen the two zeros, then you calculate the area of each part, the fill alone and the cut lone.
 in autocad you can use the command aa to clculate a closed area, once all corners seclected by the corser the are will be shown above the command box
-
+final note if 95%+ of the land will be excavted then just excavate the entire thing

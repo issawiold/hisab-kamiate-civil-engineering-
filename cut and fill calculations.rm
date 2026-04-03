@@ -1,0 +1,22 @@
+ # cut nd fill calculations
+
+ ## needed info:
+1-the topographic map of the area.
+2-the outline of the building.
+
+in autocad, place the outline of the building above the topographic map (using the outline of the land to ensure that it's placed correctly).
+\offset the outline of the building by .5 meters
+make a grid of lines that aare spaced equally horizantally and vertically.
+check the needed level of excavation.
+needed level of excavation= the lowest basement floor level-the thickness of the floor tiles- thickness of mortar - thickness of sand - thickness of slab on ground -thickness of gravel(base coarse) - thickness of compacted soil.
+which is about (needed level of excavation)= the lowest basment floor level - .45 to .6 (dependent on the soil strength(consilidation))
+you check the toppgraphic natural level on the corners of each square on the grid drawn inside the building outline(offsetted)
+*** extremely important the four corners must either be above the level of the excavation or all four must be blow it to use the first meathod. ***
+(the sum of the values at the four corners/4 - needed excavation level)* by the rea of the square = the cut or fill
+if the output is + theen it's cut, if it's - then it's cut.
+by summing the values with the same sign you can get the fill nd cut values.
+*** common mistakes= summing the vallues of cut and fill together. *** 
+the cut wwould usually become loose soil that can't be used to fill the areas that need fill.
+if the square contains both cut and fill then either use smaller squares for that area, or use interpolation.
+
+
